@@ -1,0 +1,6 @@
+{
+    "encrypt": true,
+    "path" : "C:\\Users\\idoma\\Desktop\\almog yd\\projects\\TypeScript\\src\\texts",
+    "format": "caesar",
+    "iterations": "5"
+}
