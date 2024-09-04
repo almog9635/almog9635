@@ -76,7 +76,7 @@ export class Executer
         }
         else
         {
-            let keyFilePath = folderPath? path.join(folderPath.split(decrypt)[0], fileName.split(encrypt)[0] + keyAddOn): fileBaseName + keyAddOn;
+            let keyFilePath = folderPath? path.join(folderPath.split(decrypt)[0], fileName.split(encrypt)[0] + keyAddOn): fileBaseName.split(encrypt)[0] + keyAddOn;
             
             let key = this.ioManager.getFileData(keyFilePath).toString();
             let decryptedData = this.encryptor.decrypt(data, iterations, parseInt(key, 10));
