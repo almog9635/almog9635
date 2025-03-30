@@ -7,7 +7,7 @@ my project is about encrypting files or folders using an input output or via a c
 example for config file that encrypt a folder using caesar encryption and doing 5 iterations of it:
 {
     "encrypt": false,
-    "path" : "C:\\Users\\idoma\\Desktop\\almog yd\\projects\\TypeScript\\src\\texts-encrypted",
+    "path" TypeScript\\src\\texts-encrypted",
     "format": "caesar",
     "iterations": "5"
 }
